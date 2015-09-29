@@ -1,0 +1,34 @@
+// some of the formulas from file: Formulas, Sys of Eq, and Variable Issolation
+Formulas
+Circulating load derived in Short tons (Volume of SAG mill=V_SAG=πr^2 L)
+Volume of the SAG mill with derived coefficient with derived coefficient (left column).
+V_SAG=πr^2 * L
+
+V_SAG=π(D/2)^2 * L
+
+V_SAG = (π * D^2 * L * ft^3)/4
+T_SAG = V_SAG∙w=(π * D^2 * L * ft^3)/4  *  (Ws lbs)/ft^3 
+T_SAG = (π * D^2 * L * Ws)/4
+T_SAG = (π * D^2 * L)/4  *  Ws/1  *  (1 tons)/(2000 lbs)  
+T_SAG = (Ws∙π)/8000  ∙D^2 L
+T_SAG = (79.8 * π)/8000   *  D^2 * L
+T_SAG = 1/100  *  D^2 * L  =  (D^2 * L)/100  * tons
+T_CL = T_SAG∙V_P=(V_P∙D^2 L)/100  tons (Circulating load)
+Vp=???	SAG Mill grind water feed rate=  (932 gal)/min
+Crushed ore feed rate=(223 tons)/hr
+Tw=Ww+Wo=(weight of water)/min+(weight of ore)/min
+Ww=(1792 gal)/min∙(8.345 lbs)/gal=(14909 lbs)/min
+Wo=(223 tons)/hr∙(1 hr)/(60 min)∙(2000 lbs)/(1 ton)≈(7433 lbs)/min
+Tw=(22342 lbs)/min
+
+Tv=Vw+Vo=(volume of water)/min+(volume of ore)/min
+Vw=(1792 gal)/min∙(1 〖ft〗^3)/(64.4 lbs)∙(8.34 lbs)/(1 gal)≈(232.07 〖ft〗^3)/min
+Vo=(223 tons)/hr∙(2000 lbs)/ton∙hr/(60 min)∙ft^3/(156.064 lbs)≈(47.63 〖ft〗^3)/min
+Tv=(280 ft^3)/min
+Ws=weight of the slurry/volume
+Ws=Tw/Tv=((22342 lbs)/min)/((280 〖ft〗^3)/min)
+Ws=(79.8 lbs)/〖ft〗^3 
+
+Note: The variable W is calculated using the average readings of the daily log on 9/9/2014. Averages were 932 gal/min of water, and 223 tons/hr of crushed ore. If the average weight of the crushed ore is  156.07 lbs/〖ft〗^3, which converts into a combined feed rate by weight of Tw=15206.21 lbs/min and a combined feed rate by volume of Tv=141.13 〖ft〗^3/min. This results in a combined weight of the slurry of Ws=Tw/Tv≈107.75 lbs/〖ft〗^3
+Note: The issue is if these coefficients are specific to a rod mill of a specific size. The concern is that the coefficient of the formula above is 1/28.21. In Kary’s study guide this same formula for a rod mill had a coefficient of 1/6.8.
+
