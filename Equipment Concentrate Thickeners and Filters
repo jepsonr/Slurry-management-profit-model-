@@ -1,0 +1,30 @@
+Concentrate Thickener	
+---------------------------------
+Conc Thickener Cleanup Sump Pump	510-PP-505
+Feed Tank	
+Concentrate Thickener	510-TH-501
+Overflow	
+Concentrate Thknr Overflow Tank	510-TK-502
+   Primary Pump	XV-XXXX, M-XXXX
+   Secondary Pump	XV-XXXX, M-XXXX
+   Tank HP Conditioner	
+Process Water Tank	830-TK-832
+Underflow	
+   Primary Pump	XV-XXXX, M-XXXX, (input SV-XXXX), XV-XXXX
+   Secondary Pump	XV-XXXX, M-XXXX, (input SV-XXXX), XV-XXXX
+Dead Head Condition	
+Concentrate Filter Feed Tank	510-TK-501
+___________________________________________________
+
+
+Concentrate Filters	
+---------------------------
+Concentrate Filter Feed Tank	510-TK-501
+   Moter 1	M-5104
+   Motor 2	M-5105
+Concentrate Dewatering Filter 1	520-FL-521
+Conc Filter Disch Feeder 1	520-FE-501
+Concentrate Dewatering Filter 2	520-FL-522
+Conc Filter Disch Feeder 1	520-FE-502
+Filter Loadout Conveyor	500-CV-521, M-5211
+Filter Area Sump Pump	520-PP-523
