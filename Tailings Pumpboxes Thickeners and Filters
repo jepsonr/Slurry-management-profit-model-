@@ -1,0 +1,34 @@
+Tailings Pumpboxs	
+-------------------------
+Cleaner Mag Separator Tailings PB1	
+   Primary	XV-4049, M-4014 (input SV-4054), XV-4058
+   Secondary	XV-4048, M-4015 (input SV-4051), XV-4055
+Cleaner Mag Separator Tailings PB2	
+   Primary	XV-4072, M-4016 (input SV-4042), XV-4075
+   Secondary	XV-4073, M-4017 (input SV-4039), XV-4074
+	__________________________________________________________
+	
+	
+Tailings Thickener
+------------------------
+Tailings Thickener Cleanup Sump Pump	610-PP-605, M6103
+Feed Tank	
+Tailings Thickener	610-TH-601, M6105
+   Primary	XV-6119, M-6101, (input SV-6113), XV-6117
+   Secondary	XV-6120, M-6102, (input SV-6110), XV-6116
+Process Water Tank	830-TK-832
+Tailings Filter Feed Tank	610-TK-601
+	______________________________________________________
+	
+	
+Tailings Filters	
+------------------
+Tailings Filter Feed Tank	610-TK-601, XV-XXXX, XV-XXXX
+   Slurry Infeed Pump	M-0000
+Derrick	(input Slurry Infeed Pump M-0000)
+Rotation 1	Rotation M-0000, Lube M-0000, Slurry VFD M-0000
+Rotation 2	Rotation M-0000, Lube M-0000, Slurry VFD M-0000
+Rotation 3	M-0000
+Return to Thickner	M-0000
+Tailings Loadout Conveyor	600-CV-621, M-0000, M-0000, M-0000, M-0000, M-0000, M-0000
+Tailings Cake	
