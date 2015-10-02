@@ -1,0 +1,38 @@
+Conveyor and SAG Mill Operation	
+____________________________________
+Equipment	Nomenclature
+Crusher Disch Conveyor	
+Crushed Ore Stockpile	
+Crushed Ore Feeder	210-FE-201, M-2115A
+Cobbing Feed Conveyor #1	    M-2106
+Cobbing Belt	210-CV-203, M-2103
+SAG Mill Feed Conv	210-CV-204, M-2105
+SAG Mill	310-ML-301 , M-3150, WIT-3029B (circulating load)
+SAG Mill Sump water	FIT-3164
+SAG Mill new water	FIT-3165  >>  FCV-3165
+SAG Mill Disch PB	310-PB-301, PIT-3195
+   Primary pump	XV-3167, M-3141 (input SV-3178 Gland), XV-3169
+   Secondary pump	XV-3168, M-3140 (input SV-3181 Gland), XV-3170
+SAG Mill Cyc Feed PB	310-PB-306, (input FIT-3184 water), PIT-3196
+   Primary pump	  XV-3171, M-3152 (input SV-3186 Gland), XV-3177
+	>> DIT-3193 >> FIT-3194
+   Secondary pump	  XV-3172, M-3151 (input SV-3189 Gland), XV-3175
+	>> DIT-3193 >> FIT-3194
+SAG Mill Cyclones	310-CY-301, XV-3173, XV-3174, XV-3176
+Rougher Mag Separator Dist Box	310-DB-301
+  Rougher Mag Separator 1	M-3155, FIT-3155, Tailings Launder
+  Rougher Mag Separator 2	M-3156, FIT-3156, Tailings Launder
+  Rougher Mag Separator 3	M-3157, FIT-3157, Tailings Launder
+Rougher Mag Separator Tailings PB1	310-PB-303, PIT-3194
+   Primary pump	XV-3195, M-3142 (input SV-3124 Gland), XV-3125
+   Secondary pump	XV-3194, M-3143 (input SV-3121 Gland), XV-3196
+Rougher Mag Separator Concentrate PB	310-PB-305, PIT-3138
+   Primary pump	XV-3129, M-3145 (input SV-3134 Gland), XV-3138
+   Secondary pump	XV-3128, M-3144 (input SV-3131 Gland), XV-3137
+Ball Mill Cyclone Feed Pub	320-PB-321, FIT-3225, DIT-3226, PIT-3215
+   Input	FIT-3204 (water), FIT-3216 (slurry), sump, Ball Mill
+   Primary pump	XV-3202, M-3222 (input SV-3209 Gland), XV-3213
+   Secondary pump	XV-3203, M-3221 (input SV-3206 Gland), XV-3212
+Ball Mill Cyclones	320-CY-321, FIT-3225, PIT-3215
+	XV-3214 >> XV-3215  >> XV-3216  >> XV-3217  >> XV-3218
+
