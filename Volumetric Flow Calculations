@@ -4,27 +4,27 @@ Volumetric Flow Calculations
 																
 SAG Mill to Cyclone to Rougher Mag and Scalping Screen																
 Input Values							            Calculated Values									
-VF	     PF	  PU	  PB	  PA	PP		  DF	  DU	  DB	  DA	  DP		  VU	    VB	    VA	    VP
-6270.0	54.0	81.0	32.0	7.0	82.4		0.85	0.23	2.13	13.29	0.21		2047.3	4222.7	3605.1	617.6
+VF	    PF	  	PU	  	PB	  	PA		PP		  	DF	  	DU	  	DB	  	DA	  	DP		  	VU	    VB	    VA	    VP
+6270.0	54.0	81.0	32.0	7.0		82.4		0.85	0.23	2.13	13.29	0.21		2047.3	4222.7	3605.1	617.6
 																      
 																
 																
 																
 Ball Mill to Tailings and Concentrate																
 Input Values							            Calculated Values									
-VF	    PF	  PU	  PO	  PC	  PT		DF	  DU	  DO	  DC	  DT		  VO	    VU	    VT	    VC
+VF	    PF	  	PU	  	PO		PC	  	PT		DF	  	DU	  	DO	  	DC	  	DT		  	VO	    VU	    VT	    VC
 8380.0	45.9	78.0	23.0	81.3	5.0		1.18	0.28	3.35	0.23	19.00		2457.3	5922.7	2049.1	408.2
 																
 																
 																
 Undetermined																
 Input Values							            Calculated Values									
-VF	    PF	  PU	  PB	  PA	 PP		  DF	  DU	  DB	  DA	  DP		  VU	    VB	    VA	    VP
-6270.0	54.0	81.0	32.0	7.0	82.4		0.85	0.23	2.13	13.29	0.21		2047.3	4222.7	3605.1	617.6
+VF	    PF	  	PU	  	PB	  	PA	 	PP		  	DF	  	DU	  	DB	  	DA	  	DP		  	VU	    VB	    VA	    VP
+6270.0	54.0	81.0	32.0	7.0		82.4		0.85	0.23	2.13	13.29	0.21		2047.3	4222.7	3605.1	617.6
 
-                                          Equations (SAG mill to 
-Symbols Key	                              rougher mag & scalping screen 
-P	Pulp density                            DF = (100-PF)/PF
+    			
+Symbols Key	                              	Equations
+P	Pulp density                            DF = (100-PF)/PF				
 G	Specific gravity                        DU = (100-PU)/PU
 D	Dilution Ratio (%Water:%Dry solids)     DB = (100-PB)/PB
 V	Volumetric Flow Rate (gpm)              DA = (100-PA)/PA
@@ -33,8 +33,8 @@ U	Underflow                               VU = (DF*VF-DU*VF)/(DB-DU)
 O	Overflow                                VB = (DF*VF-DB*VF)/(DU-DB)
 B	Before the  sieve                       VA = (VB*DB-DA*VB)/(DP-DA)
 A	After sieve                             VP = (DB*VB-DP*VB)/(DA-DP)
-R	Rougher
-S	Scalping
+R	Rougher									VT = (DO*VO-DT*VO)/(DC-DT)
+S	Scalping								VC = VO-VT
 C	Concentrate
 T	Tailings
 p	Passing
