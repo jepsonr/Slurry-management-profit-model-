@@ -29,6 +29,12 @@ Ws=weight of the slurry/volume
 Ws=Tw/Tv=((22342 lbs)/min)/((280 〖ft〗^3)/min)
 Ws=(79.8 lbs)/〖ft〗^3 
 
-Note: The variable W is calculated using the average readings of the daily log on 9/9/2014. Averages were 932 gal/min of water, and 223 tons/hr of crushed ore. If the average weight of the crushed ore is  156.07 lbs/〖ft〗^3, which converts into a combined feed rate by weight of Tw=15206.21 lbs/min and a combined feed rate by volume of Tv=141.13 〖ft〗^3/min. This results in a combined weight of the slurry of Ws=Tw/Tv≈107.75 lbs/〖ft〗^3
-Note: The issue is if these coefficients are specific to a rod mill of a specific size. The concern is that the coefficient of the formula above is 1/28.21. In Kary’s study guide this same formula for a rod mill had a coefficient of 1/6.8.
+//Note: The variable W is calculated using the average readings of the daily log on 9/9/2014. 
+//Averages were 932 gal/min of water, and 223 tons/hr of crushed ore. 
+//If the average weight of the crushed ore is  156.07 lbs/〖ft〗^3, 
+//which converts into a combined feed rate by weight of Tw=15206.21 lbs/min and a combined feed rate 
+//by volume of Tv=141.13 〖ft〗^3/min. This results in a combined weight of the slurry of Ws=Tw/Tv≈107.75 lbs/〖ft〗^3
+//Note: The issue is if these coefficients are specific to a rod mill of a specific size. 
+//The concern is that the coefficient of the formula above is 1/28.21. 
+//In Kary’s study guide this same formula for a rod mill had a coefficient of 1/6.8.
 
