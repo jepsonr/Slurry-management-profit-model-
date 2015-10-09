@@ -1,0 +1,17 @@
+Input Values					                								
+m (units)	r (units)	l (units)	As	  		
+4.00	    14	      12.07	    10		  	      	          
+
+Calculated Values	and formulas
+triagleHeight 	  Diameter 	    theta (rads)	        halfChord	        sideAreaₒ (sq units)	  Sector Area	      
+10.00	            28.00	        0.7752	              9.80	            615.75	                151.94                    
+radius-           2*radius      Acos(height/radius)   |r*sin(theta)|    pi*radiuo^2             area*theta/pi             
+
+Triangular Area               Subchord Area (sq units)	Volume-grinding material	Max Volume (cu units)
+97.98                        53.96	                    651.3	                    3716.1
+triangleHeight*             materialHeight                        sectorArea-              subchordArea*
+halfChord                        triangularArea           length
+
+
+
+
