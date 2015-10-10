@@ -1,16 +1,79 @@
-Input Values					                								
-m (units)	r (units)	l (units)	As	  		
-4.00	    14	      12.07	    10		  	      	          
+//program description -- Volume of (SAG Mill) grinding material
+//created/revised by <Rex Jepson> <10/10/2015>
 
-Calculated Values	and formulas
-triagleHeight 	  Diameter 	    theta (rads)	        halfChord	        sideAreaₒ (sq units)	  Sector Area	      
-10.00	            28.00	        0.7752	              9.80	            615.75	                151.94                    
-radius-           2*radius      Acos(height/radius)   |r*sin(theta)|    pi*radiuo^2             area*theta/pi             
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
 
-Triangular Area               Subchord Area (sq units)	Volume-grinding material	Max Volume (cu units)
-97.98                        53.96	                    651.3	                    3716.1
-triangleHeight*             materialHeight                        sectorArea-              subchordArea*
-halfChord                        triangularArea           length
+//function prototypes
+
+double volumeGrindingMaterial (double, double, double );
+
+int main()
+{
+    //declare variables (input is in feet and RPM)
+    double sagBallHeight = 0.0;
+    double RADIUS_MILL = 14.0;
+    double WIDTH_MILL = 12.07;
+    double actualMillSpd = 0.0;
+    double volGrindMat = 0.0;
+    //enter input measurements
+    cout << "Measured grinding material height (in feet): ";
+    cin >> sagBallHeight;
+    cout << "Actual mill speed: ";
+    cin >> actualMillSpd;
+
+    //call function
+    volGrindMat = volumeGrindingMaterial
+                    (sagBallHeight,
+                     RADIUS_MILL,
+                     WIDTH_MILL);
+
+
+    //display
+    cout << fixed << setprecision(2);
+    cout << "Current volume of grinding material: " << endl;
+    cout << volGrindMat;
+
+    cin.ignore();
+    return 0;
+}//end main function
+
+//**************function definitions***************
+//function header
+double volumeGrindingMaterial (double sagBallHeight,
+                               double RADIUS_MILL,
+                               double WIDTH_MILL )
+{
+
+    //calculates the volume of the grinding material
+    double vol = 0.0;
+    double area = 0.0;
+    double theta = 0.0;
+    double hChord = 0.0;
+    double areaSect = 0.0;
+    double areaTrigl = 0.0;
+    double areaSubChd = 0.0;
+
+    theta = acos(( RADIUS_MILL - sagBallHeight ) / RADIUS_MILL);
+    hChord = abs ( RADIUS_MILL * sin(theta));
+    area = 3.14159 * pow (RADIUS_MILL, 2);
+    areaSect = area * theta / 3.14159;
+    areaTrigl = hChord * (RADIUS_MILL - sagBallHeight);
+    areaSubChd = areaSect - areaTrigl;
+    vol = areaSubChd * WIDTH_MILL;
+
+    return vol;
+
+
+
+
+//	Max Volume (cu units)
+  //            3716.1
+
 
 
 
