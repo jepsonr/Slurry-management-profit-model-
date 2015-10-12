@@ -6,8 +6,8 @@ Genesis:
 The newly promoted general manager of an iron mill was faced with a number of challeges left to him when the previous manager quit:
   1. The flotation tanks were constantly breaking down from overload
   2. The EPA had filed injunctions because the tailing's moisture content was damgerously high
-  3. The SAG mill kept breaking down from improper regulation of volumetric flow of the slury and imbalance of feed (raw ore and     water)
-  4. Prices and purity requirements on foreign and domestic markets required adjustments to SAG mill speed and feed rates
+  3. The SAG mill kept breaking down from improper regulation of volumetric flow and imbalance of feed (raw ore and water)
+  4. Prices and purity requirements on foreign and domestic markets required different SAG mill speeds and feed rates
   5. Density samples took several hours to analyze which left too much lag-time for contenuous slurry flow management
   
   6. One solution was to install millions of dollars of sensors and suffer hundreds of hours of down time
