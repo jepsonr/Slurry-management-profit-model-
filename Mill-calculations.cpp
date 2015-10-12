@@ -1,5 +1,5 @@
 //program description -- Volume of (SAG Mill) grinding material
-//created/revised by <Rex Jepson> <10/10/2015>
+//created/revised by <Rex Jepson> <10/12/2015>
 
 #include <iostream>
 #include <iomanip>
@@ -66,15 +66,10 @@ double volumeGrindingMaterial (double sagBallHeight,
     areaSubChd = areaSect - areaTrigl;
     vol = areaSubChd * WIDTH_MILL;
 
-    return vol;
+    return vol;//	Max Volume (cu units) = 3716.1
+}
 
-
-
-
-//	Max Volume (cu units)
-  //            3716.1
-
-
+//function header
 
 
 
