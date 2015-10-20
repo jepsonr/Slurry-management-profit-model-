@@ -17,6 +17,18 @@ The plan:
   1. Predict grinding material consumption rates
   2. Develop a system of equations to calculate and manage the flow of slurry to prevent damaging equipment
 
+Legend of Variables:
+V=volume/time, 
+D=Dilution ratio, 
+u=underflow, 
+o=overflow, 
+t=tailings, 
+c=concentrate
+P=Percent of dry solids, 
+ρ=s.g.(density) of dry solids, 
+f=feed
+s=specific gravity (density of the slurry)
+
 
 
 Questions and inquiries for further development:
