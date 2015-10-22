@@ -1,5 +1,6 @@
 # Optimization of Marginal Profit (mill operations)
-Input: revenue - (international &amp; domestic prices &amp; purity); quality of raw ore; variable costs - water, electricity (by tier); fixed costs. 
+Input: revenue - (international &amp; domestic prices &amp; purity); quality of raw ore; variable costs - fuel, water, and electricity (by tier); and other fixed costs. 
+
 Output: Optimal feed rates and ratios (maximizing profit, protecting equipment, and managing choke points).
 
 Genesis:
