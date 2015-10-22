@@ -1,11 +1,11 @@
-//program description -- Volume of (SAG Mill) grinding material
+//program description -- Calculates the volume of (SAG Mill) 
+//grinding material from its measured height
 //created/revised by <Rex Jepson> <10/12/2015>
 
 #include <iostream>
 #include <iomanip>
 #include <cmath>
-#include <ctime>
-#include <cstdlib>
+
 using namespace std;
 
 //function prototypes
