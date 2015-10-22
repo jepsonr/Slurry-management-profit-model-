@@ -27,7 +27,6 @@ Phases for software development:
   
 
 Questions and inquiries for Phase 3:
-
 1. What are the dimensions of P∙s  (percent of dry solids in the liquid times Specific gravity of the slurry)?
  	P∙s = %∙g/ml =  the volume of dry solids which requires the known G of the dry solids.
 	This raises a follow on question: 
