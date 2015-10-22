@@ -17,7 +17,7 @@ Solutions that could provide real time data:
   1. One solution: install sensors costing as much as $50 million dollars in time and equipment
   2. A second solution: develop a mathematical model and statistical analysis tool
   	- Advantages of the second solution: cost, analysis, and prediction 
-
+ 
 Phases for software development:
   1. Calculate grinding material volume for SAG mill (complete)
   2. Calculate circulating load of the SAG mill (complete)
@@ -28,11 +28,11 @@ Phases for software development:
 
 Questions and inquiries for Phase 3:
 1. What are the dimensions of P∙s  (percent of dry solids in the liquid times Specific gravity of the slurry)?
- 	P∙s = %∙g/ml =  the volume of dry solids which requires the known G of the dry solids.
-	This raises a follow on question: 
-	Isn’t the G of the underflow that doesn’t pass through the shaker screenlower than the G that does pass? 
-	Or, is it simply the size of the chunck not the consistency of iron in the chunck?
-	More importantly, does it matter since the material not passing returns to the SAG mill?
+ 	1. P∙s = %∙g/ml =  the volume of dry solids which requires the known G of the dry solids.
+	2. This raises a follow on question: 
+	3. Isn’t the G of the underflow that doesn’t pass through the shaker screenlower than the G that does pass? 
+	4. Or, is it simply the size of the chunck not the consistency of iron in the chunck?
+	5. More importantly, does it matter since the material not passing returns to the SAG mill?
 2. What are the dimensions of G (specific gravity of the dry solids)?
 	=grams/ml
 3. Can the G be calculated mathematically without using a Marcy scale?
@@ -44,11 +44,10 @@ Questions and inquiries for Phase 3:
 9. Why does P change between the SAG Mill discharge and the SAG Cyclone Feed (approximately from 70% to 55%)?
 	Assumptions: Additional water dilution. Two sumps feed into the shaker screen, new water goes to SAG Mill.
 10. Where does sump water come from?
-
 	Assumptions: reclaimed from drying process.
 11. What is the Vp (Volumetric Loading =? % of total volume [total volume of what, the mill?]) which is the variable for the circulating load calculation.
 12. Is the SAG Mill discharge the same as the slurry going into the SAG Mill Discharge Pumpbox?
-	yes
+	= yes
 14. Does the equation  PsubF∙GsubF=PsubU∙GsubU+PsubB∙GsubB hold.
 
 Common conversion ratios, approximate values and formulas:
