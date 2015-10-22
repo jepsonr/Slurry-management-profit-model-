@@ -54,32 +54,61 @@ Questions and inquiries for Phase 3:
 
 
 Common conversion ratios, approximate values and formulas:
+
 T=Short tons∙volumetric loading
+
 Tm=tons per volume of a mill
+
 V=volume   
+
 D=Diameter
+
 w=mass of the slurry in 〖ft〗^3  
+
 L=length of mill  
+
 w=(weight of slurry in lbs)/〖ft〗^3 
+
 kwr=power draw in kilowatts (rod mill)
+
 Cs=Critical speed of a mill in rpm
+
 %Cs=Actual mill speed in rpm (percent of criticla speed)
+
 Water weight and mass: 	62.42 lbs/〖ft〗^3 = 1.9385 slugs/〖ft〗^3 
+
 Volume: 1 m^3  = 1000 〖dm〗^3 liters= 35.288 〖ft〗^3  = 1.305 〖yd〗^3
+
 Weight/Mass of water 1 g/〖cm〗^3 = 1  g/ml (4 deg C at sea level)
+
 								  = 1 kg/liter 
+
                                   = 1000 kg/m^3 = 1 tonnes/m^3 
+
                                   = 62.4 lbs/〖ft〗^3 
+
                                   = 8.34 (lbs)/gal
+
 Conversion for water volume: 	7.473(lbs)/gal ≈ 1 lbs/〖ft〗^3   
+
 Refined iron ore weight:		≈449.42 lbs/〖ft〗^3
+
 Crushed iron ore weight	≈156.07 lbs/〖ft〗^3
+
 SAG mill overflow		SG=2.6 (needs to be confirmed mathematically--direct measurement takes drying time)
+
 Kilowatts per ton for rod mill:   	kwr=〖1.07〗^0.34 (6.3-5.4∙Vp)∙%Cs kw/ton=kw/Tr
+
 Power draw:  			Prm=Tr∙kwr 
+
 Critical Speed formula (rod mill):	
+
 				D(Csr)^2=76.63 (constant for a rod mill needs adjustment for a SAG mill)  
+
 				Cs=76.63/√D (critical speed isolated)
+
 When ρ of ref=ρ of water (@ 4°C): 	S.G.=ρ_material = ρ of material/ρ of water = ρ_material/1.00 
+
 Conversion Factors		1m ≈ 3.28 ft
+
 
